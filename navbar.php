@@ -22,7 +22,7 @@ require 'db.php';
 										<li><a href="#why" class="drop-text">What We do</a></li>
 										<li><a href="#price" class="drop-text">Pricing</a></li>
 										<li><a href="#testi" class="drop-text">Testimonials</a></li>
-										<li><a href="book.html" class="drop-text">Booking Form</a></li>
+										<li><a href="book.php" class="drop-text">Booking Form</a></li>
 									</ul>
 								</li>
 								<li><a href="contact.html">Contact Us</a></li>

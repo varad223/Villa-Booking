@@ -4,7 +4,34 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
+<?php
+include "db.php";
+?>
+<?php
+if(isset($_POST['submit'])){
+  extract($_POST);
+//$password=md5($_POST["password"]);
+  require 'db.php';
+    $insert_query= "insert into booking(fname,lname,email,phno,dep_date,arv_date,room,guests,message)values('$fname','$lname','$email','$number','$depdate','$arvdate','$room','$guests','$message')";
 
+  //  echo $insert_query."<br>";  
+    $fire_query= mysqli_query($con,$insert_query);
+    print_r($update_query_teacher);
+    if($fire_query)
+    {
+      echo '<script language="javascript">';
+      echo 'alert("Booking Done")';
+    header("Location: index.php");
+      echo '</script>';
+    }
+    else
+    {
+      echo "error";
+    }
+}
+else{
+ }
+?> 
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -49,7 +76,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="header d-md-flex justify-content-between align-items-center py-3 px-xl-5 px-lg-3 px-2">
 					<!-- logo -->
 					<div id="logo">
-						<h1><a href="index.html">Villas</a></h1>
+						<h1><a href="index.php">Villas</a></h1>
 					</div>
 					<!-- //logo -->
 					<!-- nav -->
@@ -58,7 +85,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<label for="drop" class="toggle">Menu</label>
 							<input type="checkbox" id="drop" />
 							<ul class="menu">
-								<li><a href="index.html" class="active">Home</a></li>
+								<li><a href="index.php" class="active">Home</a></li>
 								<li><a href="about.html">About Us</a></li>
 								<li><a href="gallery.html">Gallery</a></li>
 								<li>
@@ -82,6 +109,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</nav>
 					</div>
 					<!-- //nav -->
+						<?php include "navbar.php";?>
+						<!--- nav-->
 				</div>
 			</div>
 		</header>
@@ -105,30 +134,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</ol>
 	</div>
 	<!-- //page details -->
-
-	<!-- booking form -->
-	<div class="register-w3 py-5">
+	<!--book test--->
+<div class="register-w3 py-5">
 		<div class="container py-xl-5 py-lg-3">
 			<h3 class="tittle text-center text-bl font-weight-bold">Booking Form</h3>
 			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">Sed do eiusmod tempor incididunt ut labore et dolore
 				magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 			<div class="comment-top mt-5">
 				<div class="comment-bottom mobamuinfo_mail_grid_right">
-					<form action="#" method="post">
+					<?php include "form.php";?>
+					<!--<form action="#" method="post">
 						<div class="row">
 							<div class="col-lg-6 form-group">
 								<label>First Name</label>
-								<input class="form-control" type="text" name="Name" placeholder="Type Here.." required="">
+								<input class="form-control" type="text" name="fname" placeholder="Type Here.." required="">
 							</div>
 							<div class="col-lg-6 form-group">
 								<label>Last Name</label>
-								<input class="form-control" type="text" name="Name" placeholder="Type Here.." required="">
+								<input class="form-control" type="text" name="lname" placeholder="Type Here.." required="">
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-lg-6 form-group">
 								<label>Email</label>
-								<input class="form-control" type="email" name="Email" placeholder="Email" required="">
+								<input class="form-control" type="email" name="email" placeholder="Email" required="">
 							</div>
 							<div class="col-lg-6 form-group">
 								<label>Phone Number</label>
@@ -139,27 +168,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="row">
 							<div class="col-lg-6 form-group date-plu">
 								<label>Departure Date</label>
-								<input type="date" name="date" required="">
+								<input type="date" name="depdate" required="">
 							</div>
 							<div class="col-lg-6 form-group date-plu">
 								<label>Arrival Date</label>
-								<input type="date" name="date" required="">
+								<input type="date" name="arvdate" required="">
 							</div>
 
 						</div>
 						<div class="row">
 							<div class="col-lg-6 form-group">
 								<label>Select Your Room</label>
-								<select required="" class="form-control">
+								<select required="" class="form-control" name="room">
 									<option value="">Room Type</option>
-									<option value="1">Single Room</option>
-									<option value="2">Double Room </option>
-									<option value="4">Suit Room</option>
+									<option value="Suite">Suite</option>
+									<option value="Deluxe Room">Deluxe Room </option>
+									<option value="Family">Family Room</option>
 								</select>
 							</div>
 							<div class="col-lg-6 form-group">
 								<label>No Of Guests</label>
-								<select required="" class="form-control">
+								<select required="" class="form-control" name="guests">
 									<option value="">No.of guests</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
@@ -173,15 +202,103 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="form-group">
 							<label>Write Message</label>
-							<textarea class="form-control" name="Message" placeholder="Write Here.." required=""></textarea>
+							<textarea class="form-control" name="message" placeholder="Write Here.." required=""></textarea>
 						</div>
-						<button type="submit" class="btn submit mt-3">Book Now</button>
+						<button type="submit" class="btn submit mt-3" name="submit">Book Now</button>
+					</form>-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- book end-->
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- booking form main  
+	<div class="register-w3 py-5">
+		<div class="container py-xl-5 py-lg-3">
+			<h3 class="tittle text-center text-bl font-weight-bold">Booking Form</h3>
+			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">Sed do eiusmod tempor incididunt ut labore et dolore
+				magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+			<div class="comment-top mt-5">
+				<div class="comment-bottom mobamuinfo_mail_grid_right">
+					<form action="#" method="post">
+						<div class="row">
+							<div class="col-lg-6 form-group">
+								<label>First Name</label>
+								<input class="form-control" type="text" name="fname" placeholder="Type Here.." required="">
+							</div>
+							<div class="col-lg-6 form-group">
+								<label>Last Name</label>
+								<input class="form-control" type="text" name="lname" placeholder="Type Here.." required="">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6 form-group">
+								<label>Email</label>
+								<input class="form-control" type="email" name="email" placeholder="Email" required="">
+							</div>
+							<div class="col-lg-6 form-group">
+								<label>Phone Number</label>
+								<input class="form-control" type="text" name="number" placeholder="Phone Number" required="">
+							</div>
+
+						</div>
+						<div class="row">
+							<div class="col-lg-6 form-group date-plu">
+								<label>Departure Date</label>
+								<input type="date" name="depdate" required="">
+							</div>
+							<div class="col-lg-6 form-group date-plu">
+								<label>Arrival Date</label>
+								<input type="date" name="arvdate" required="">
+							</div>
+
+						</div>
+						<div class="row">
+							<div class="col-lg-6 form-group">
+								<label>Select Your Room</label>
+								<select required="" class="form-control" name="room">
+									<option value="">Room Type</option>
+									<option value="Suite">Suite</option>
+									<option value="Deluxe Room">Deluxe Room </option>
+									<option value="Family">Family Room</option>
+								</select>
+							</div>
+							<div class="col-lg-6 form-group">
+								<label>No Of Guests</label>
+								<select required="" class="form-control" name="guests">
+									<option value="">No.of guests</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="4">3</option>
+									<option value="4">4</option>
+									<option value="4">5</option>
+									<option value="4">6</option>
+									<option value="4">7 more</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Write Message</label>
+							<textarea class="form-control" name="message" placeholder="Write Here.." required=""></textarea>
+						</div>
+						<button type="submit" class="btn submit mt-3" name="submit">Book Now</button>
 					</form>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- //booking form -->
+ //booking form main -->
 
 	<!-- footer -->
 	<footer class="py-5">
