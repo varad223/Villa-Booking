@@ -9,7 +9,7 @@ closePopup.onclick = function() {
   popup.style.display = 'none';
 };
 // Show Overlay and Popup
-button.onclick = function() {
+submit.onclick = function() {
   overlay.style.display = 'block';
   popup.style.display = 'block';
 }
