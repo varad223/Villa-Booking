@@ -16,12 +16,12 @@ if(isset($_POST['submit'])){
 
   //  echo $insert_query."<br>";  
     $fire_query= mysqli_query($con,$insert_query);
-    print_r($update_query_teacher);
+    
     if($fire_query)
     {
       echo '<script language="javascript">';
       echo 'alert("Booking Done")';
-    header("Location: index.php");
+  // header("Location: index.php");
       echo '</script>';
     }
     else
@@ -40,7 +40,6 @@ else{
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8" />
-	<meta name="keywords" content="Villas Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 	<script>
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
@@ -67,6 +66,7 @@ else{
 	<!-- //Web-Fonts -->
 </head>
 
+	
 <body>
 	<!-- main banner -->
 	<div class="main-top" id="home">
@@ -80,6 +80,7 @@ else{
 					</div>
 					<!-- //logo -->
 					<!-- nav -->
+					<!--
 					<div class="nav_w3ls">
 						<nav>
 							<label for="drop" class="toggle">Menu</label>
@@ -89,7 +90,7 @@ else{
 								<li><a href="about.html">About Us</a></li>
 								<li><a href="gallery.html">Gallery</a></li>
 								<li>
-									<!-- First Tier Drop Down -->
+									
 									<label for="drop-2" class="toggle toogle-2">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span>
 									</label>
 									<a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
@@ -108,7 +109,7 @@ else{
 							</ul>
 						</nav>
 					</div>
-					<!-- //nav -->
+					--->
 						<?php include "navbar.php";?>
 						<!--- nav-->
 				</div>
@@ -397,7 +398,11 @@ else{
 	<!-- move top icon -->
 	<a href="#home" class="move-top text-center"></a>
 	<!-- //move top icon -->
-
+<?php
+	if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+		echo "The form has been submitted. To confirm your booking, please pay.";
+	}
+	?>
 </body>
 
 </html>

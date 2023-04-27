@@ -147,7 +147,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				<div class="col-xl-6 col-lg-7 about-right offset-xl-1">
-					<h4 class="sub-tittle-w3layouts let">About Us</h4>
+					<h4 class="sub-tittle-w3layouts let"> Us</h4>
 					<h3 class="tittle-w3layouts text-uppercase pr-lg-5 mt-2">Duis aute irure olor in cillum solore</h3>
 					<p class="mt-4 mb-4">Lorem ipsum dolor sit amet Neque porro quisquam est qui dolorem Lorem int ipsum dolor sit
 						amet id tempor felis. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

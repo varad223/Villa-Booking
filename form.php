@@ -71,6 +71,30 @@ require 'db.php';
 									echo'	</div>';
 									echo'	<button type="submit" class="btn submit mt-3" name="submit" id="submit">Book Now</button>';
 									echo'	</form>';
+									if(isset($_POST["submit"]))
+									{
+										echo "<script>
+function openWin() {
+  window.open('payment.php');
+}
+</script>";
+									echo '<button onclick="openWin()">Pay Now</button>';
+									echo "<div id='popup' class='popup'>
+										  	<div class='popup-content'>
+										    <p>Pay Now!!</p>
+										    <button onclick='window.location.href = 'payment.php';'>Pay Now</button>
+										  </div>
+										</div>";
+
+
+									echo'<p>The form has been submitted. To confirm your booking, please'; 
+									echo ' pay:</p>';
+									//echo'<button>Pay Now</button>';
+								
+									}
+									
+
+			
 								}
          						 
           						?>
