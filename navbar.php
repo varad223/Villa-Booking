@@ -6,7 +6,7 @@ require 'db.php';
 							<label for="drop" class="toggle">Menu</label>
 							<input type="checkbox" id="drop" />
 							<ul class="menu">
-								<li><a href="index.html" class="active">Home</a></li>
+								<li><a href="index.php" class="active">Home</a></li>
 								<li><a href="about.html">About Us</a></li>
 								<li><a href="gallery.html">Gallery</a></li>
 								<li>

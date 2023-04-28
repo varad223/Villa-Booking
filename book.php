@@ -129,7 +129,7 @@ else{
 	<div class="breadcrumb-mobamu">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item">
-				<a href="index.html">Home</a>
+				<a href="index.php">Home</a>
 			</li>
 			<li class="breadcrumb-item active" aria-current="page">Booking Form</li>
 		</ol>
@@ -307,7 +307,7 @@ else{
 			<div class="row footer-top">
 				<div class="col-lg-4 col-md-6 footer-grid_section_1its">
 					<h2 class="logo-2 mb-lg-4 mb-3">
-						<a href="index.html" class="text-uppercase text-wh">Villas</a>
+						<a href="index.php" class="text-uppercase text-wh">Villas</a>
 					</h2>
 					<!-- Map -->
 					<div class="map-fo">
@@ -319,7 +319,7 @@ else{
 					<h3 class="footer-title text-uppercase text-wh mb-lg-4 mb-3">Links</h3>
 					<ul class="list-unstyled">
 						<li class="mb-3">
-							<a href="index.html">Home</a>
+							<a href="index.php">Home</a>
 						</li>
 						<li class="mb-3">
 							<a href="about.html">About Us</a>
@@ -328,7 +328,7 @@ else{
 							<a href="gallery.html">Gallery</a>
 						</li>
 						<li class="mb-3">
-							<a href="index.html">Services</a>
+							<a href="index.php">Services</a>
 						</li>
 						<li class="mb-3">
 							<a href="contact.html">Contact Us</a>

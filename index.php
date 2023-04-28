@@ -51,7 +51,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="header d-md-flex justify-content-between align-items-center py-3 px-xl-5 px-lg-3 px-2">
 					<!-- logo -->
 					<div id="logo">
-						<h1><a href="index.html">Villas</a></h1>
+						<h1><a href="index.php">Villas</a></h1>
 					</div>
 					<!-- //logo -->
 					<!-- nav -->
@@ -187,7 +187,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<li>Breakfast included </li>
 							<li>Price does not include VAT & services fee </li>
 						</ul>
-						<a href="book.html" class="btn button-style-2 mt-sm-5 mt-4">Book Now</a>
+						<a href="book.php" class="btn button-style-2 mt-sm-5 mt-4">Book Now</a>
 					</div>
 				</div>
 				<div class="col-lg-4 price-mobamus my-lg-0 my-5">
@@ -210,7 +210,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<li>Breakfast included </li>
 							<li>Concierge services </li>
 						</ul>
-						<a href="book.html" class="btn button-style-2 mt-sm-5 mt-4">Book Now</a>
+						<a href="book.php" class="btn button-style-2 mt-sm-5 mt-4">Book Now</a>
 					</div>
 				</div>
 				<div class="col-lg-4 price-mobamus">
@@ -233,7 +233,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<li>Babysitting facilities</li>
 							<li>1 free bed available on request</li>
 						</ul>
-						<a href="book.html" class="btn button-style-2 mt-sm-5 mt-4">Book Now</a>
+						<a href="book.php" class="btn button-style-2 mt-sm-5 mt-4">Book Now</a>
 					</div>
 				</div>
 			</div>
@@ -521,7 +521,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container py-xl-5 py-lg-3">
 			<div class="welcome-left text-center py-md-5 py-3">
 				<h3>Enjoy Your Every Moments With Your Partner In Villas Paradise Resort</h3>
-				<a href="book.html" class="btn button-style button-style mt-sm-5 mt-4">Book Now</a>
+				<a href="book.php" class="btn button-style button-style mt-sm-5 mt-4">Book Now</a>
 			</div>
 		</div>
 	</div>
@@ -552,7 +552,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="row footer-top">
 				<div class="col-lg-4 col-md-6 footer-grid_section_1its">
 					<h2 class="logo-2 mb-lg-4 mb-3">
-						<a href="index.html" class="text-uppercase text-wh">Villas</a>
+						<a href="index.php" class="text-uppercase text-wh">Villas</a>
 					</h2>
 					<!-- Map -->
 					<div class="map-fo">
@@ -564,7 +564,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h3 class="footer-title text-uppercase text-wh mb-lg-4 mb-3">Links</h3>
 					<ul class="list-unstyled">
 						<li class="mb-3">
-							<a href="index.html">Home</a>
+							<a href="index.php">Home</a>
 						</li>
 						<li class="mb-3">
 							<a href="about.html">About Us</a>
