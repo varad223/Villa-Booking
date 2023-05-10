@@ -147,11 +147,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				<div class="col-xl-6 col-lg-7 about-right offset-xl-1">
-					<h4 class="sub-tittle-w3layouts let"> Us</h4>
-					<h3 class="tittle-w3layouts text-uppercase pr-lg-5 mt-2">We're the best villa in the city</h3>
-					<p class="mt-4 mb-4">Lorem ipsum dolor sit amet Neque porro quisquam est qui dolorem Lorem int ipsum dolor sit
-						amet id tempor felis. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit.</p>
+					
+					<h3 class="tittle-w3layouts text-uppercase pr-lg-5 mt-2">We offer the best villa services in the city!</h3>
+					<p class="mt-4 mb-4">Looking for a villa? We're here to solve that for you!<br> We offer villas at reasonable prices that will make your vacation better! <br>We also specialize in customizing the villa according the occasion!</p>
 					<a href="about.html" class="btn button-style-2 mt-sm-5 mt-4">Read More</a>
 				</div>
 			</div>
@@ -163,9 +161,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="rooms-w3ls bg-li py-5" id="price">
 		<div class="container-fluid py-xl-5 py-lg-3">
 			<h3 class="tittle text-center text-bl font-weight-bold">Rooms & Suites</h3>
-			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">Sed do eiusmod tempor incididunt ut labore et dolore
-				magna
-				aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">We offer a variety of rooms in our villas! <br>The rooms we offer are Deluxe room,Family room and Suite.<br>The rooms in our villa are spacious and hygienic.</p>
 			<div class="row">
 				<div class="col-lg-4 price-mobamus">
 					<div class="price-top">
@@ -177,9 +173,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<h4 class="my-2"><a href="single.html">Suite</a></h4>
 						<div class="lm-item-price">
 							<h6>
-								<span class="price-top-head">$</span>
-								<span class="price-midd-head">195</span>
-								<span class="price-right-head">/ per month</span>
+								<span class="price-top-head">₹</span>
+								<span class="price-midd-head">6000</span>
+								<span class="price-right-head">/ per night</span>
 							</h6>
 						</div>
 						<ul class="style-lists">
@@ -200,9 +196,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<h4 class="my-2"><a href="single.html">Deluxe Room</a></h4>
 						<div class="lm-item-price">
 							<h6>
-								<span class="price-top-head">$</span>
-								<span class="price-midd-head">120</span>
-								<span class="price-right-head">/ per month</span>
+								<span class="price-top-head">₹</span>
+								<span class="price-midd-head">4000</span>
+								<span class="price-right-head">/ per night</span>
 							</h6>
 						</div>
 						<ul class="style-lists">
@@ -223,9 +219,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<h4 class="my-2"><a href="single.html">Family Room</a></h4>
 						<div class="lm-item-price">
 							<h6>
-								<span class="price-top-head">$</span>
-								<span class="price-midd-head">182</span>
-								<span class="price-right-head">/ per month</span>
+								<span class="price-top-head">₹</span>
+								<span class="price-midd-head">2500</span>
+								<span class="price-right-head">/ per night</span>
 							</h6>
 						</div>
 						<ul class="style-lists">
