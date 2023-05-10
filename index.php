@@ -124,7 +124,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="banner-bottom py-5">
 		<div class="d-md-flex container py-xl-3 py-lg-3">
 			<div class="banner-left-bottom-w3ls">
-				<h6 class="text-wh let">Sed do eiusmod tempor</h6>
+				
 				<h3 class="text-wh my-3">Welcome to our Villas</h3>
 				<p>Enjoy Your Every Moments With Your Partner In Villas Paradise Resort.<br>Sed do eiusmod tempor incididunt ut
 					labore.</p>
