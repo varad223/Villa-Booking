@@ -199,12 +199,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="row">
 				<div class="col-lg-4 price-mobamus">
 					<div class="price-top">
-						<a href="single.html">
+						<a href="suite.php">
 							<img src="images/price1.jpg" alt="" class="img-fluid" />
 						</a>
 					</div>
 					<div class="price-w3ls-bottom p-4">
-						<h4 class="my-2"><a href="single.html">Suite</a></h4>
+						<h4 class="my-2"><a href="suite.php">Suite</a></h4>
 						<div class="lm-item-price">
 							<h6>
 								<span class="price-top-head">₹</span>
@@ -222,12 +222,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-lg-4 price-mobamus my-lg-0 my-5">
 					<div class="price-top">
-						<a href="single.html">
+						<a href="delux.php">
 							<img src="images/price2.jpg" alt="" class="img-fluid" />
 						</a>
 					</div>
 					<div class="price-w3ls-bottom p-4">
-						<h4 class="my-2"><a href="single.html">Deluxe Room</a></h4>
+						<h4 class="my-2"><a href="delux.php">Deluxe Room</a></h4>
 						<div class="lm-item-price">
 							<h6>
 								<span class="price-top-head">₹</span>
@@ -245,12 +245,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-lg-4 price-mobamus">
 					<div class="price-top">
-						<a href="single.html">
+						<a href="family.php">
 							<img src="images/price3.jpg" alt="" class="img-fluid" />
 						</a>
 					</div>
 					<div class="price-w3ls-bottom p-4">
-						<h4 class="my-2"><a href="single.html">Family Room</a></h4>
+						<h4 class="my-2"><a href="family.php">Family Room</a></h4>
 						<div class="lm-item-price">
 							<h6>
 								<span class="price-top-head">₹</span>

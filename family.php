@@ -103,7 +103,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<li class="breadcrumb-item">
 				<a href="index.php">Home</a>
 			</li>
-			<li class="breadcrumb-item active" aria-current="page">Suite Details</li>
+			<li class="breadcrumb-item active" aria-current="page">Family Details</li>
 		</ol>
 	</div>
 	<!-- //page details -->
@@ -111,9 +111,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- single -->
 	<div class="blog-w3l py-5">
 		<div class="container py-xl-5 py-lg-3">
-			<h3 class="tittle text-center text-bl font-weight-bold">Suite Details</h3>
-			<a href="http://127.0.0.1:5500/360/room1/index.html">click here for 360 view</a>
-			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">The best suite rooms in city</p>
+			<h3 class="tittle text-center text-bl font-weight-bold">Family Details</h3>
+			<center><a href="http://127.0.0.1:5500/360/room3/index.html"><button>click here for 360 view</button></a></center>
+			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">The best family rooms in city</p>
 			<div class="blog_section px-lg-5">
 				<div class="card border-0">
 					<a href="single.html">
@@ -175,16 +175,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<img src="images/te1.jpg" alt="" class="img-fluid" />
 						<div class="media-body pt-xl-2 pl-3">
 							<h5 class="mb-2">Cardi Johnson</h5>
-							<p> Amazing experience . </p>
+							<p> Amazing experience. </p>
 						</div>
 					</div>
 					<div class="media mt-5">
 						<img src="images/te2.jpg" alt="" class="img-fluid" />
 						<div class="media-body  pt-xl-2 pl-3">
 							<h5 class="mb-2">Goh James</h5>
-							<p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. id dignissim sapien velit id felis ac
-								cursus eros.
-								Cras a ornare elit.</p>
+							<p>Would Come Again!!</p>
 						</div>
 					</div>
 				</div>
