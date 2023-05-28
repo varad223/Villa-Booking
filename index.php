@@ -160,8 +160,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="banner-left-bottom-w3ls">
 				
 				<h3 class="text-wh my-3">Welcome to our Villas</h3>
-				<p>Enjoy Your Every Moments With Your Partner In Villas Paradise Resort.<br>Sed do eiusmod tempor incididunt ut
-					labore.</p>
+				<p>Enjoy Your Every Moments With Your Partner In Villas Paradise Resort.<br>
+					</p>
 			</div>
 			<div class="button offset-lg-2 offset-md-1">
 				<a href="about.html" class="btn w3ls-button-mobamu">Read More</a>
@@ -274,30 +274,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- why -->
 	<div class="serives py-5" id="why">
 		<div class="container py-xl-5 py-lg-3">
-			<h3 class="tittle text-center text-bl font-weight-bold">Why Villas </h3>
-			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">Sed do eiusmod tempor incididunt ut labore et dolore
-				magna
-				aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+			<h3 class="tittle text-center text-bl font-weight-bold">Why our Villas? </h3>
+			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">Our villas are an excellent choice for a relaxing and refreshing staycation with affordable prices for your friends and family to enjoy!</p>
 			<div class="row text-center">
 				<div class="col-lg-3 col-md-6 ser-grid">
 					<span class="fa fa-cutlery"></span>
 					<h4>Restaurant</h4>
-					<p>Ut enim ad minima veniam, quis nostrum ullam corporis suscipit laboriosam.</p>
+					<p>The restaurants in our villas offer delicious multi-cuisine food that will make your vacation better!</p>
 				</div>
 				<div class="col-lg-3 col-md-6 ser-grid mt-md-0 mt-5">
 					<span class="fa fa-money"></span>
 					<h4>Low Price</h4>
-					<p>Ut enim ad minima veniam, quis nostrum ullam corporis suscipit laboriosam.</p>
+					<p>Our villas are total value for money and can be booked at affordable prices!</p>
 				</div>
 				<div class="col-lg-3 col-md-6 ser-grid mt-lg-0 mt-5">
 					<span class="fa fa-user-secret"></span>
 					<h4>Secure Zone</h4>
-					<p>Ut enim ad minima veniam, quis nostrum ullam corporis suscipit laboriosam.</p>
+					<p>The villas are under 24 hour CCTV surveillance amd guarded by highly trained security guards, so leave your security to us and enjoy your stay at our villas!</p>
 				</div>
 				<div class="col-lg-3 col-md-6 ser-grid mt-lg-0 mt-5">
 					<span class="fa fa-car"></span>
 					<h4>Pick Up</h4>
-					<p>Ut enim ad minima veniam, quis nostrum ullam corporis suscipit laboriosam.</p>
+					<p>We also offer pick-up services that will take you from your home to our villas, so leave your transportation worries to us!</p>
 				</div>
 			</div>
 		</div>
@@ -355,34 +353,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- blog -->
 	<div class="blog-w3ls py-5" id="blog">
 		<div class="container py-xl-5 py-lg-3">
-			<h3 class="tittle text-center text-bl font-weight-bold">Accommodation</h3>
-			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">Sed do eiusmod tempor incididunt ut labore et dolore
-				magna
-				aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+			<h3 class="tittle text-center text-bl font-weight-bold">Customer Reviews About Our Various Services</h3><br>
+			
 			<div class="row package-grids">
 				<div class="col-lg-4 posts-mobamus">
 					<div class="posts-top">
 						<a href="single.html">
 							<img src="images/blog1.jpg" alt="" class="img-fluid" />
 						</a>
-						<h3>13
-							<span>Sep</span>
+			
+						
 						</h3>
 					</div>
 					<div class="posts-w3ls-bottom py-4">
-						<h4 class="mb-2"><a href="single.html">Sit accus antium</a></h4>
+						<h4 class="mb-2"><a href="single.html">Food and beverages</a></h4>
 						<ul class="list-unstyled">
 							<li>
 								<a href="#">
-									<span class="fa fa-thumbs-up mr-1"></span>20 Likes</a>
+									<span class="fa fa-thumbs-up mr-1"></span>120 Likes</a>
 							</li>
 							<li class="mx-3">
 								<a href="#">
-									<span class="fa fa-comments mr-1"></span>48 Comments</a>
+									<span class="fa fa-comments mr-1"></span>49 Comments</a>
 							</li>
 						</ul>
-						<p class="mt-3">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-							nostrud exercitation.</p>
+						<p class="mt-3">Our various customers have loved our multi-cuisine food and it has become one of the main attractions in our villas!</p>
 					</div>
 				</div>
 				<div class="col-lg-4 posts-mobamus my-lg-0 my-4">
@@ -390,24 +385,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a href="single.html">
 							<img src="images/blog2.jpg" alt="" class="img-fluid" />
 						</a>
-						<h3>16
-							<span>Sep</span>
-						</h3>
+						
 					</div>
 					<div class="posts-w3ls-bottom py-4">
-						<h4 class="mb-2"><a href="single.html">Sit accus antium</a></h4>
+						<h4 class="mb-2"><a href="single.html">Rooms</a></h4>
 						<ul class="list-unstyled">
 							<li>
 								<a href="#">
-									<span class="fa fa-thumbs-up mr-1"></span>20 Likes</a>
+									<span class="fa fa-thumbs-up mr-1"></span>87 Likes</a>
 							</li>
 							<li class="mx-3">
 								<a href="#">
-									<span class="fa fa-comments mr-1"></span>48 Comments</a>
+									<span class="fa fa-comments mr-1"></span>45 Comments</a>
 							</li>
 						</ul>
-						<p class="mt-3">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-							nostrud exercitation.</p>
+						<p class="mt-3">The rooms in our villas are spacious and hygienic and the room service is also top class.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 posts-mobamus">
@@ -415,24 +407,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a href="single.html">
 							<img src="images/blog3.jpg" alt="" class="img-fluid" />
 						</a>
-						<h3>20
-							<span>Sep</span>
-						</h3>
+						
 					</div>
 					<div class="posts-w3ls-bottom py-4">
-						<h4 class="mb-2"><a href="single.html">Sit accus antium</a></h4>
+						<h4 class="mb-2"><a href="single.html">Swimming Pool</a></h4>
 						<ul class="list-unstyled">
 							<li>
 								<a href="#">
-									<span class="fa fa-thumbs-up mr-1"></span>20 Likes</a>
+									<span class="fa fa-thumbs-up mr-1"></span>99 Likes</a>
 							</li>
 							<li class="mx-3">
 								<a href="#">
-									<span class="fa fa-comments mr-1"></span>48 Comments</a>
+									<span class="fa fa-comments mr-1"></span>52 Comments</a>
 							</li>
 						</ul>
-						<p class="mt-3">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-							nostrud exercitation.</p>
+						<p class="mt-3">The swimming pools in our villas are huge, safe and open air and are loved by our customers! </p>
 					</div>
 				</div>
 			</div>
@@ -443,36 +432,35 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- services -->
 	<div class="serives-mobamu py-5" id="services">
 		<div class="container py-xl-5 py-lg-3">
-			<h3 class="tittle text-center text-wh font-weight-bold">Our Services</h3>
-			<p class="sub-tittle text-center text-li mt-2 mb-sm-5 mb-4 pb-xl-3">Sed do eiusmod tempor incididunt ut labore et
-				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+			<h3 class="tittle text-center text-wh font-weight-bold">Our Services</h3><br>
+			
 			<div class="row welcome-bottom text-center">
 				<div class="col-lg-3 col-sm-6 px-2">
 					<div class="welcome-grid bg-wh py-5 px-4">
 						<img src="images/wh1.jpg" alt="" class="img-fluid">
-						<h4 class="mt-4 mb-3 text-bl">Service 01</h4>
-						<p>Quis nostrum ullam corporis suscipit.</p>
+						<h4 class="mt-4 mb-3 text-bl">Premium Rooms</h4>
+						<p>Our villas provide best quality premium rooms!</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6 mt-sm-0 mt-5 px-2">
 					<div class="welcome-grid bg-wh py-5 px-4">
 						<img src="images/wh2.jpg" alt="" class="img-fluid">
-						<h4 class="mt-4 mb-3 text-bl">Service 02</h4>
-						<p>Quis nostrum ullam corporis suscipit.</p>
+						<h4 class="mt-4 mb-3 text-bl">Excellant Room Service</h4>
+						<p>Our villas provide the best room service in town!</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6 mt-lg-0 mt-5 px-2">
 					<div class="welcome-grid bg-wh py-5 px-4">
 						<img src="images/wh3.jpg" alt="" class="img-fluid">
-						<h4 class="mt-4 mb-3 text-bl">Service 03</h4>
-						<p>Quis nostrum ullam corporis suscipit.</p>
+						<h4 class="mt-4 mb-3 text-bl">Friendly Reception Staff</h4>
+						<p>The Reception staff in our villas are very efficient and friendly!</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6 mt-lg-0 mt-5 px-2">
 					<div class="welcome-grid bg-wh py-5 px-4">
 						<img src="images/wh4.jpg" alt="" class="img-fluid">
-						<h4 class="mt-4 mb-3 text-bl">Service 04</h4>
-						<p>Quis nostrum ullam corporis suscipit.</p>
+						<h4 class="mt-4 mb-3 text-bl">Best Vacation Package</h4>
+						<p>The vacation package of our villas is best in all price ranges!</p>
 					</div>
 				</div>
 			</div>
@@ -484,8 +472,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<section class="team-main-sec bg-li py-5" id="testi">
 		<div class="container py-xl-5 py-lg-3">
 			<h3 class="tittle text-center text-bl font-weight-bold">Our Guests Love Us</h3>
-			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">Sed do eiusmod tempor incididunt ut labore et dolore
-				magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">The guests that have visited our villa have loved our villa and given many heatwarming and positive reviews!</p>
 			<div class="row text-center">
 				<div class="col-lg-4 col-md-6 team-gd-info">
 					<div class="team-gd">
@@ -493,7 +480,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<img src="images/te1.jpg" class="img-fluid" alt="user-image">
 						</div>
 						<div class="team-info">
-							<h3>Jason Dono <span class="sub-tittle-team">New York</span> </h3>
+							<h3>Cardi Johnson <span class="sub-tittle-team">New York</span> </h3>
 							<ul class="list-unstyled my-md-4 my-3">
 								<li><span class="fa fa-star"></span></li>
 								<li><span class="fa fa-star"></span></li>
@@ -501,7 +488,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<li><span class="fa fa-star"></span></li>
 								<li><span class="fa fa-star-o"></span></li>
 							</ul>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+							<p>Our stay at the Villa Was magical beyond all expectations. The grounds were impeccable and simply beautiful. The Staff were friendly and amazing accommodating. </p>
 						</div>
 					</div>
 				</div>
@@ -519,7 +506,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<li><span class="fa fa-star"></span></li>
 								<li><span class="fa fa-star-half-o"></span></li>
 							</ul>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+							<p>We are so happy with our stay here at Villa Belong Dua. The staff has been so friendly, we've felt at home. Thank your for looking after us</p>
 						</div>
 					</div>
 				</div>
@@ -529,7 +516,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<img src="images/te3.jpg" class="img-fluid" alt="user-image">
 						</div>
 						<div class="team-info">
-							<h3>Daniel Doe <span class="sub-tittle-team">Germany</span></h3>
+							<h3>Daniella Doe <span class="sub-tittle-team">Germany</span></h3>
 							<ul class="list-unstyled my-md-4 my-3">
 								<li><span class="fa fa-star"></span></li>
 								<li><span class="fa fa-star"></span></li>
@@ -537,7 +524,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<li><span class="fa fa-star"></span></li>
 								<li><span class="fa fa-star"></span></li>
 							</ul>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+							<p>We are so happy with our stay here at the Villa . The staff has been so friendly, we've felt at home. Thank your for looking after us</p>
 						</div>
 					</div>
 				</div>
@@ -561,9 +548,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="newsletter_w3w3pvt py-5">
 		<div class="container py-xl-5 py-lg-3">
 			<h3 class="tittle text-center text-bl font-weight-bold">Subscribe Newsletter</h3>
-			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">Sed do eiusmod tempor incididunt ut labore et dolore
-				magna
-				aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+			
 			<div class="newsletter">
 				<form action="#" method="post">
 					<div class="form-group mb-0 w-100">
@@ -619,7 +604,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="footer-style-w3ls mb-4">
 							<h4 class="text-li mb-2">Email </h4>
-							<p><a href="mailto:info@example.com">info@example.com</a></p>
+							<p><a href="mailto:info@example.com">villa@paradise.com</a></p>
 						</div>
 						<div class="footer-style-w3ls mb-4">
 							<h4 class="text-li mb-2">Location</h4>
@@ -631,7 +616,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<!-- social icons -->
 					<div class="mobamuinfo_social_icons">
 						<h3 class="footer-title text-uppercase text-wh mb-lg-4 mb-3">Social Info</h3>
-						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<p>Our villa is acive on almost all social handles , so please show your love and follow us on our social media handles!</p>
 						<h4 class="sub-con-fo text-li my-4">Catch on Social</h4>
 						<ul class="mobamuits_social_list list-unstyled">
 							<li class="w3_mobamu_facebook">
@@ -664,8 +649,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //footer -->
 	<!-- copyright -->
 	<div class="cpy-right text-center py-3">
-		<p>© 2019 Villas. All rights reserved | Design by
-			<a href="http://w3layouts.com"> W3layouts.</a>
+		<p>© 2019 Villas Paradise Resorts. All rights reserved.</a>
 		</p>
 	</div>
 	<!-- //copyright -->
