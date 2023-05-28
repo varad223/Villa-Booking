@@ -9,40 +9,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html lang="zxx">
 
 <head>
-	<!-- Web-Fonts -->
-	<meta name="viewport" content="width-device-width, initial-scale=1">
-	<!-- dialogflow style bootsrap -->
-	<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-	<!-- Jquery CDN -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script>
-		//To minimise the height of chatbox
-		$(document).ready(function() {
-			window.addEventListener('dfMessengerLoaded', function (event) {
-			$r1 = document.querySelector("df-messenger");
-			$r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
-			$r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); 
-			var sheet = new CSSStyleSheet;
-			// manage box height from here
-			sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 450px }`);
-			$r2.shadowRoot.adoptedStyleSheets = [ sheet ];
-			});
-		});
-	</script>
-	<style>
-			/* custom css for chatbox */
-			/* find it here : https://cloud.google.com/dialogflow/es/docs/integrations/dialogflow-messenger */
-			df-messenger {
-				--df-messenger-bot-message: #bdfcbf;
-				--df-messenger-button-titlebar-color: #7ec472;
-				--df-messenger-chat-background-color: #fafafa;
-				--df-messenger-font-color: black;
-				--df-messenger-send-icon: #7ec472;
-				--df-messenger-user-message: #7ec472;
-			}
-  
-	</style>
-	<!-- //Web-Fonts -->
 	<title>Villas Hotel Category Flat Bootstrap Responsive Website Template | Home :: W3layouts</title>
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -158,7 +124,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="banner-bottom py-5">
 		<div class="d-md-flex container py-xl-3 py-lg-3">
 			<div class="banner-left-bottom-w3ls">
-				
+				<h6 class="text-wh let">Sed do eiusmod tempor</h6>
 				<h3 class="text-wh my-3">Welcome to our Villas</h3>
 				<p>Enjoy Your Every Moments With Your Partner In Villas Paradise Resort.<br>Sed do eiusmod tempor incididunt ut
 					labore.</p>
@@ -181,9 +147,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				<div class="col-xl-6 col-lg-7 about-right offset-xl-1">
-					
-					<h3 class="tittle-w3layouts text-uppercase pr-lg-5 mt-2">We offer the best villa services in the city!</h3>
-					<p class="mt-4 mb-4">Looking for a villa? We're here to solve that for you!<br> We offer villas at reasonable prices that will make your vacation better! <br>We also specialize in customizing the villa according the occasion!</p>
+					<h4 class="sub-tittle-w3layouts let"> Us</h4>
+					<h3 class="tittle-w3layouts text-uppercase pr-lg-5 mt-2">Duis aute irure olor in cillum solore</h3>
+					<p class="mt-4 mb-4">Lorem ipsum dolor sit amet Neque porro quisquam est qui dolorem Lorem int ipsum dolor sit
+						amet id tempor felis. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit.</p>
 					<a href="about.html" class="btn button-style-2 mt-sm-5 mt-4">Read More</a>
 				</div>
 			</div>
@@ -195,7 +163,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="rooms-w3ls bg-li py-5" id="price">
 		<div class="container-fluid py-xl-5 py-lg-3">
 			<h3 class="tittle text-center text-bl font-weight-bold">Rooms & Suites</h3>
-			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">We offer a variety of rooms in our villas! <br>The rooms we offer are Deluxe room,Family room and Suite.<br>The rooms in our villa are spacious and hygienic.</p>
+			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">Sed do eiusmod tempor incididunt ut labore et dolore
+				magna
+				aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 			<div class="row">
 				<div class="col-lg-4 price-mobamus">
 					<div class="price-top">
@@ -207,9 +177,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<h4 class="my-2"><a href="single.html">Suite</a></h4>
 						<div class="lm-item-price">
 							<h6>
-								<span class="price-top-head">₹</span>
-								<span class="price-midd-head">6000</span>
-								<span class="price-right-head">/ per night</span>
+								<span class="price-top-head">$</span>
+								<span class="price-midd-head">195</span>
+								<span class="price-right-head">/ per month</span>
 							</h6>
 						</div>
 						<ul class="style-lists">
@@ -230,9 +200,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<h4 class="my-2"><a href="single.html">Deluxe Room</a></h4>
 						<div class="lm-item-price">
 							<h6>
-								<span class="price-top-head">₹</span>
-								<span class="price-midd-head">4000</span>
-								<span class="price-right-head">/ per night</span>
+								<span class="price-top-head">$</span>
+								<span class="price-midd-head">120</span>
+								<span class="price-right-head">/ per month</span>
 							</h6>
 						</div>
 						<ul class="style-lists">
@@ -253,9 +223,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<h4 class="my-2"><a href="single.html">Family Room</a></h4>
 						<div class="lm-item-price">
 							<h6>
-								<span class="price-top-head">₹</span>
-								<span class="price-midd-head">2500</span>
-								<span class="price-right-head">/ per night</span>
+								<span class="price-top-head">$</span>
+								<span class="price-midd-head">182</span>
+								<span class="price-right-head">/ per month</span>
 							</h6>
 						</div>
 						<ul class="style-lists">
@@ -669,18 +639,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</p>
 	</div>
 	<!-- //copyright -->
-	<!-- chatbot -->
-	<!-- This is the main code for chatbot  -->
-	<!-- we can add more fields refer: https://cloud.google.com/dialogflow/es/docs/integrations/dialogflow-messenger -->
-	<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-<df-messenger
-  intent="WELCOME"
-  chat-title="NIVAS"
-  chat-icon = "https://cdn.iconscout.com/icon/premium/png-512-thumb/chatbot-4-683088.png"
-  agent-id="4325ff66-e416-4fe3-91c6-c0c8f900b37e"
-  language-code="en"
-></df-messenger>
-	<!-- //chatbot -->
 
 	<!-- move top icon -->
 	<a href="#home" class="move-top text-center"></a>
