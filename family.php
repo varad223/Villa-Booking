@@ -9,6 +9,38 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html lang="zxx">
 
 <head>
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<!-- dialogflow style bootsrap -->
+	<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+	<!-- Jquery CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+		//To minimise the height of chatbox
+		$(document).ready(function() {
+			window.addEventListener('dfMessengerLoaded', function (event) {
+			$r1 = document.querySelector("df-messenger");
+			$r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
+			$r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); 
+			var sheet = new CSSStyleSheet;
+			// manage box height from here
+			sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 450px }`);
+			$r2.shadowRoot.adoptedStyleSheets = [ sheet ];
+			});
+		});
+	</script>
+	<style>
+			/* custom css for chatbox */
+			/* find it here : https://cloud.google.com/dialogflow/es/docs/integrations/dialogflow-messenger */
+			df-messenger {
+				--df-messenger-bot-message: #bdfcbf;
+				--df-messenger-button-titlebar-color: #7ec472;
+				--df-messenger-chat-background-color: #fafafa;
+				--df-messenger-font-color: black;
+				--df-messenger-send-icon: #7ec472;
+				--df-messenger-user-message: #7ec472;
+			}
+  
+	</style>
 	<title>Villas Hotel Category Flat Bootstrap Responsive Website Template | Blog Details :: W3layouts</title>
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -117,7 +149,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="blog_section px-lg-5">
 				<div class="card border-0">
 					<a href="single.html">
-						<img src="images/pic.jpeg" alt="" class="img-fluid">
+						<img src="images/i2.jpeg" alt="" class="img-fluid">
 					</a>
 					<div class="card-body p-0 py-4">
 						<div class="row border-bottom pb-3">
@@ -304,7 +336,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</p>
 	</div>
 	<!-- //copyright -->
-
+<df-messenger
+  intent="WELCOME"
+  chat-title="NIVAS"
+  chat-icon = "https://cdn.iconscout.com/icon/premium/png-512-thumb/chatbot-4-683088.png"
+  agent-id="4325ff66-e416-4fe3-91c6-c0c8f900b37e"
+  language-code="en"
+></df-messenger>
 	<!-- move top icon -->
 	<a href="#home" class="move-top text-center"></a>
 	<!-- //move top icon -->

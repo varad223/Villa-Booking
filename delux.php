@@ -9,6 +9,40 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html lang="zxx">
 
 <head>
+	<!-- Web-Fonts -->
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<!-- dialogflow style bootsrap -->
+	<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+	<!-- Jquery CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+		//To minimise the height of chatbox
+		$(document).ready(function() {
+			window.addEventListener('dfMessengerLoaded', function (event) {
+			$r1 = document.querySelector("df-messenger");
+			$r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
+			$r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); 
+			var sheet = new CSSStyleSheet;
+			// manage box height from here
+			sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 450px }`);
+			$r2.shadowRoot.adoptedStyleSheets = [ sheet ];
+			});
+		});
+	</script>
+	<style>
+			/* custom css for chatbox */
+			/* find it here : https://cloud.google.com/dialogflow/es/docs/integrations/dialogflow-messenger */
+			df-messenger {
+				--df-messenger-bot-message: #bdfcbf;
+				--df-messenger-button-titlebar-color: #7ec472;
+				--df-messenger-chat-background-color: #fafafa;
+				--df-messenger-font-color: black;
+				--df-messenger-send-icon: #7ec472;
+				--df-messenger-user-message: #7ec472;
+			}
+  
+	</style>
+
 	<title>Villas Hotel Category Flat Bootstrap Responsive Website Template | Blog Details :: W3layouts</title>
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -103,7 +137,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<li class="breadcrumb-item">
 				<a href="index.php">Home</a>
 			</li>
-			<li class="breadcrumb-item active" aria-current="page">Delux Details</li>
+			<li class="breadcrumb-item active" aria-current="page">Deluxe Details</li>
 		</ol>
 	</div>
 	<!-- //page details -->
@@ -111,13 +145,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- single -->
 	<div class="blog-w3l py-5">
 		<div class="container py-xl-5 py-lg-3">
-			<h3 class="tittle text-center text-bl font-weight-bold">Delux Details</h3>
+			<h3 class="tittle text-center text-bl font-weight-bold">Deluxe Details</h3>
 			<center><a href="http://127.0.0.1:5500/360/room2/index.html"><button>click here for 360 view</button></a></center>
-			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">The best delux rooms in city</p>
+			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">The best deluxe rooms in city</p>
 			<div class="blog_section px-lg-5">
 				<div class="card border-0">
 					<a href="single.html">
-						<img src="images/pic.jpeg" alt="" class="img-fluid">
+						<img src="images/i1.jpeg" alt="" class="img-fluid">
 					</a>
 					<div class="card-body p-0 py-4">
 						<div class="row border-bottom pb-3">
@@ -308,6 +342,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- move top icon -->
 	<a href="#home" class="move-top text-center"></a>
 	<!-- //move top icon -->
+	<df-messenger
+  intent="WELCOME"
+  chat-title="NIVAS"
+  chat-icon = "https://cdn.iconscout.com/icon/premium/png-512-thumb/chatbot-4-683088.png"
+  agent-id="4325ff66-e416-4fe3-91c6-c0c8f900b37e"
+  language-code="en"
+></df-messenger>
 
 </body>
 

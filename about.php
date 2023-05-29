@@ -10,38 +10,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 <head>
-	<meta name="viewport" content="width-device-width, initial-scale=1">
-	<!-- dialogflow style bootsrap -->
-	<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-	<!-- Jquery CDN -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script>
-		//To minimise the height of chatbox
-		$(document).ready(function() {
-			window.addEventListener('dfMessengerLoaded', function (event) {
-			$r1 = document.querySelector("df-messenger");
-			$r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
-			$r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); 
-			var sheet = new CSSStyleSheet;
-			// manage box height from here
-			sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 450px }`);
-			$r2.shadowRoot.adoptedStyleSheets = [ sheet ];
-			});
-		});
-	</script>
-	<style>
-			/* custom css for chatbox */
-			/* find it here : https://cloud.google.com/dialogflow/es/docs/integrations/dialogflow-messenger */
-			df-messenger {
-				--df-messenger-bot-message: #bdfcbf;
-				--df-messenger-button-titlebar-color: #7ec472;
-				--df-messenger-chat-background-color: #fafafa;
-				--df-messenger-font-color: black;
-				--df-messenger-send-icon: #7ec472;
-				--df-messenger-user-message: #7ec472;
-			}
-  
-	</style>
 	<title>Villas Hotel Category Flat Bootstrap Responsive Website Template | About Us :: W3layouts</title>
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
